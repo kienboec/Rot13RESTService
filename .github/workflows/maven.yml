@@ -21,5 +21,6 @@ jobs:
       with:
         java-version: '15'
         distribution: 'adopt'
-    - name: Build with Maven (-B BatchMode)
+    # (-B BatchMode)
+    - name: Build with Maven
       run: mvn -B package --file pom.xml
